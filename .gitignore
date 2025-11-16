@@ -1,3 +1,8 @@
 dist/
 node_modules/
 .venv/
+
+# Local environment files (may contain secrets)
+.env
+.env.*
+!.env.example
